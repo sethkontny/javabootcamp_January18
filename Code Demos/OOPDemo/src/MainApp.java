@@ -5,6 +5,8 @@ public class MainApp {
 	public static void main(String[] args) {
 		Person nick = new Person();
 		Person ronald = new Person();
+		
+		new Person();
 
 		nick.setFullName("Nick Soule");
 		ronald.setFullName("Ronald Kim");
@@ -25,8 +27,11 @@ public class MainApp {
 		david.setFullName("Dave Musko");
 		System.out.println(david);
 		
-		Person[] personArr = {nick, ronald, david};
+		new Person();
+		Person[] personArr = {new Person(), new Person(), david};
 		personArr[0] = nick;
+		personArr[1] = new Person();
+		personArr[1].setFullName("James Drain");
 		
 		ArrayList<Person> peopleList = new ArrayList<>();
 		peopleList.add(nick);
@@ -36,6 +41,8 @@ public class MainApp {
 		
 		Person p4 = new Person("Antonella S", 31, "This is a test");
 		System.out.println(p4);
+		
+
 
 	}
 
