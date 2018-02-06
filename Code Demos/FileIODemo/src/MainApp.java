@@ -17,7 +17,7 @@ public class MainApp {
 		createDirectory(directoryString);
 		createFile(directoryString, "antonella.txt");
 		writeToFile(directoryString, "antonella.txt");
-		readFromFile("", "");
+		readFromFile("", ""); // parameters are blank because I hard coded the value in the method
 
 	}
 
@@ -80,7 +80,8 @@ public class MainApp {
 
 	public static void readFromFile(String dirString, String filePath) {
 		Path readFile = Paths.get("resources/antonella.txt"); // the hardcoded value can be changed to use the method
-																// parameters
+																// parameters -- this should be replaced with the
+																// parameters from the method when ready to use
 		File file = readFile.toFile();
 
 		try {
