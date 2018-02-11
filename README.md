@@ -23,6 +23,8 @@ This GitHub repo is where Antonella and Maurice will share bootcamp resources wi
 
 [Here's Another Javadocs Resource](http://www.codejava.net/ides/eclipse/how-to-generate-javadoc-in-eclipse)
 
+[Chrome DevTools : Inspect Element](https://developers.google.com/web/tools/chrome-devtools/)
+
 [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html)
 
 [SQL Cheatsheet](http://www.cheat-sheets.org/sites/sql.su/)
