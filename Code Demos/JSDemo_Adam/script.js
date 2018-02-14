@@ -126,7 +126,7 @@ function ask() {
 }
 function helloName() {
   while (!done) {
-    usernput = ask();
+    userinput = ask();
     if (isTooShort(userinput)) {
       alert("Your name is short. Too short.\n Do it again!");
     } else {
@@ -135,3 +135,9 @@ function helloName() {
     }
   }
 }
+
+function isTooShort(inputName){
+  return inputName.length < 2;
+}
+
+helloName(name);
