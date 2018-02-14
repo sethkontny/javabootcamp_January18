@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+  <h1>Hello</h1>
+
+  <div class="info">
+    <p id="name">Adam</p>
+    <p>31</p>
+  </div>
+
+  <div class="info">
+    <p>Floyd</p>
+    <p>6</p>
+  </div>
+
+  <form>
+    <input type="text" placeholder="Username"> <!-- the placeholder attribute adds temp text that is grayed out in the form-->
+    <input type ="password" placeholder="Password">
+    <!-- <input type="submit" value="Submit"> --- Can use this instead of using the button element below -->
+    <button type="button" onclick="signIn();">Sign In</button> <!-- the onclick attribute allows us to call a function-->
+  </form>
+
+<!-- this is how we link javascript files to our html pages -- should be added to the end of the document before the closing body tag -->
+<script src="script.js"></script>
+<script src="script2.js"></script> <!-- for DOM Demo -->
+<script src="script3.js"></script>
+</body>
+</html>
