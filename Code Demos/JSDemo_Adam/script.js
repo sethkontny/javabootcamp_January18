@@ -119,5 +119,19 @@ if (userFavFood === "pizza") {
 
 
 // Code Challenge
-var userName = prompt("What is your name? ");
-alert("Hello, " + userName);
+var name = "";
+var done = false;
+function ask() {
+  return prompt("Please enter your name");
+}
+function helloName() {
+  while (!done) {
+    usernput = ask();
+    if (isTooShort(userinput)) {
+      alert("Your name is short. Too short.\n Do it again!");
+    } else {
+      alert("Hello " + userinput);
+      done = true;
+    }
+  }
+}
