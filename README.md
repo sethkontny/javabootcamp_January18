@@ -43,6 +43,8 @@ This GitHub repo is where Antonella and Maurice will share bootcamp resources wi
 
 ### Design Patterns
 
+[MVC Explained](https://medium.freecodecamp.org/model-view-controller-mvc-explained-through-ordering-drinks-at-the-bar-efcba6255053)
+
 [MVC](https://www.tutorialspoint.com/design_pattern/mvc_pattern.htm)
 
 [DAO](https://www.tutorialspoint.com/design_pattern/data_access_object_pattern.htm)
