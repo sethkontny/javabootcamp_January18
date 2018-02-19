@@ -1,0 +1,8 @@
+/*
+* CSS for Spring error validation classes
+ */
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('error.png');
+}
