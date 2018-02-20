@@ -11,10 +11,10 @@
 <html>
 <head>
     <title>Library Terminal Spring</title>
-    <link href="${pageContext.request.contextPath}/resources/css/home.css" rel="stylesheet" >
+    <link href="resources/css/home.css" rel="stylesheet" >
     <!-- Latest compiled and minified CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link href="${pageContext.request.contextPath}/resources/css/validation.css" rel="stylesheet" >
+    <link href="resources/css/validation.css" rel="stylesheet" >
 
 </head>
 <body>
@@ -167,8 +167,7 @@
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-
-<script src="${pageContext.request.contextPath}/resources/js/home.js"></script>
+<script src="resources/js/home.js"></script>
 
 </body>
 </html>

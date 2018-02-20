@@ -32,14 +32,15 @@ public class HibernateUtil {
 	 */
 	private static SessionFactory buildSessionFacotry(){
 		try {
-			//String DATABASE_URL="jdbc:mysql://username:password@DBServerURL:3306/DataBaseName";
+			//String DATABASE_URL="mysql://username:password@DBServerURL:3306/DataBaseName";			
+			
 			//System.out.println(System.getenv("DATABASE_URL"));//
 			//System.out.println("#################:" + System.getProperty("DATABASE_URL"));//tomcat on AWS
 			Configuration cfg = new Configuration().configure("hibernate.cfg.xml");
 			URI uri = new URI(System.getProperty("DATABASE_URL"));//Database URL stored in environment variable for Tomcat AWS environments
 			//URI uri = new URI(System.getenv("DATABASE_URL"));//Database URL stored in environment variable for Java SE environments
-			//URI uri = new URI(DATABASE_URL);//for localhost. No environment variables
-
+			//URI uri = new URI(DATABASE_URL);//for localhost. No environment variables			
+					
 			String[] userInfo = uri.getUserInfo().split(":");// get username and
 																// password from
 																// uri string
