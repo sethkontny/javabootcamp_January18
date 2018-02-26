@@ -5,6 +5,12 @@ _Welcome to Bootcamp!_
 
 This GitHub repo is where Antonella and Maurice will share bootcamp resources with you. Below are links to some additional resources that we will talk about as the class goes on.
 
+### Week 6 Class Demos
+
+[JDBC Demo](https://github.com/asolomon412/JDBCDemo_Jan18)
+
+[Hibernate Demo](https://github.com/asolomon412/HibernateDemo_Jan18)
+
 ### Links
 
 [How Computers Work](https://www.youtube.com/watch?v=OAx_6-wdslM&list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
