@@ -11,6 +11,8 @@ This GitHub repo is where Antonella and Maurice will share bootcamp resources wi
 
 [Hibernate Demo](https://github.com/asolomon412/HibernateDemo_Jan18)
 
+[Sessions & Cookies Demo](https://github.com/asolomon412/SessionsCookiesDemo_Jan18)
+
 ### Links
 
 [How Computers Work](https://www.youtube.com/watch?v=OAx_6-wdslM&list=PLzdnOPI1iJNcsRwJhvksEo1tJqjIqWbN-)
