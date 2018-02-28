@@ -7,6 +7,10 @@ This GitHub repo is where Antonella and Maurice will share bootcamp resources wi
 
 ### Week 6 Class Demos
 
+[Spring MVC - Starter App](https://github.com/asolomon412/SpringMVCApp)
+
+[Spring MVC Demo](https://github.com/asolomon412/SpringMVCDemo_Jan18)
+
 [JDBC Demo](https://github.com/asolomon412/JDBCDemo_Jan18)
 
 [Hibernate Demo](https://github.com/asolomon412/HibernateDemo_Jan18)
